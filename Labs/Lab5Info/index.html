@@ -1,24 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Volunteer Form</title>
+</head>
+
+
 <body>
 
 <h1>Volunteer Form</h1>
-<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php"
-method="post">
 
-<fieldset>
-	<legend>My Info</legend>
+<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+	
+	<fieldset>
+		<legend>My Info</legend>
 
-	<div>
+	
 		<!-- FIRST NAME -->
-		<label for="fname">First name:</label><br>
-		<input type="text" id="fname" name="fname"><br>
-</div>
+		<label for="first_name_field">First name:</label>
+		<input type="text" id="first_name_field" name="first_name_field"><br>
 
+		<!-- LAST NAME -->
+		<label for="last_name_field">Last name:</label>
+		<input type="text" id="last_name_field" name="last_name_field"><br>
+
+		<label for="email_field">email:</label>
+		<input type="email" id="email_field" name="email_field"><br>
+
+		<span>Gender:</span>
+		<input type="radio" id="male" name="gender_field" value="male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender_field" value="female">
+		<label for="female">Female</label><br>
+
+		<label for="age_field">Age:</label><br>
+		<select id="age_field" name="age_field">
+			<option value="under 18">under 18</option>
+			<option value="over 18">over 18</option>
+		</select>
+	
 </fieldset>
 
 <fieldset>
 	<legend>My Availability</legend>
+
+	<h3>Days Available:</h3>
 
 </fieldset>
 
