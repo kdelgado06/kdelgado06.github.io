@@ -15,7 +15,7 @@ nav a {
 }
 
 body {
-    background-color: #f4c2e1fd;
+    background-color: #e8cfdefd;
     font-family: Arial, sans-serif;
     color: #514744;
 }
@@ -38,6 +38,7 @@ h2 {
     color: #a96675;
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 5px;
 }
 
 main p {
@@ -60,6 +61,7 @@ main img{
     display: flex;
     align-items: center;
     gap: 30px;
+    margin-bottom: 0px;
 }
 
 .interest-layout img {
@@ -69,4 +71,5 @@ main img{
 
 .interest-layout p {
     flex: 1;
+    margin-top: 0;
 }
