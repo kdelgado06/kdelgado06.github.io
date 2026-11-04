@@ -29,7 +29,7 @@ main {
 h1 {
     color: #a96675;
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     background-color: #a8d5d2;
     padding: 20px;
     font-family: 'Devonshire', cursive;
@@ -37,7 +37,7 @@ h1 {
 
 h2 {
     color: #a96675;
-    font-size: 16px;
+    font-size: 30px;
     line-height: 1.5;
     margin-bottom: 5px;
     font-family: 'Devonshire', cursive;
@@ -78,6 +78,7 @@ main img{
 .interest-layout h2 {
     margin-top: 0;
     margin-bottom: 5px;
+    font-size: 30px;
     font-family: 'Devonshire', cursive;
 }
 
