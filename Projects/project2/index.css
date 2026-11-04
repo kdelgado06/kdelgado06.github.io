@@ -66,3 +66,7 @@ main img{
     width: 200px;
     height: auto;
 }
+
+.interest-layout p {
+    flex: 1;
+}
