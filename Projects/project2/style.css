@@ -36,22 +36,22 @@ h1 {
 
 h2 {
     color: #a96675;
-    border-bottom: 2px solid #a8d5d2;
-    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 main p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 main ul {
     line-height: 1.8;
 }
 
-main img {
+main img{
     max-width: 100%;
     height: auto;
     border: 3px solid #c98991;
-    border-radius: 5px;
+    border-radius: 8px;
 }
