@@ -55,3 +55,14 @@ main img{
     border: 3px solid #c98991;
     border-radius: 8px;
 }
+
+.interest-layout {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.interest-layout img {
+    width: 200px;
+    height: auto;
+}
