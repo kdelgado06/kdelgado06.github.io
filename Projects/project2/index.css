@@ -40,7 +40,7 @@ h2 {
     font-size: 30px;
     line-height: 1.5;
     margin-bottom: 5px;
-    font-family: 'Devonshire', cursive;
+    font-family: Arial, sans-serif;
 }
 
 main p {
@@ -79,7 +79,7 @@ main img{
     margin-top: 0;
     margin-bottom: 5px;
     font-size: 30px;
-    font-family: 'Devonshire', cursive;
+    font-family: Arial, sans-serif;
 }
 
 .interest-layout p {
