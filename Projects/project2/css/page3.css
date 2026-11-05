@@ -17,15 +17,19 @@ nav a {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #dde3c4;
+    background-image: url("../images/blue-green.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #34495e;
 }
 
 main {
     width: 850px;
     margin: 30px auto;
-    background-color: #dde3c4;
+    background-color: rgba(255, 255, 255, 0.85);
     padding: 20px;
+    border-radius: 8px;
 }
 
 h1 {
@@ -34,6 +38,7 @@ h1 {
     text-align: center;
     font-size: 30px;
     padding: 20px;
+    border-radius: 6px;
 }
 
 h2 {
