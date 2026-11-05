@@ -14,7 +14,7 @@ nav a {
     font-size: 18px;
     color: #34495e;
 }
-
+    /*Style 1*/
 body {
     font-family: Arial, sans-serif;
     background-image: url("blue-green.jpeg");
@@ -23,7 +23,7 @@ body {
     background-attachment: fixed;
     color: #34495e;
 }
-
+    /*Style 2*/
 main {
     width: 850px;
     margin: 30px auto;
@@ -31,7 +31,7 @@ main {
     padding: 20px;
     border-radius: 8px;
 }
-
+    /*Style 3*/
 h1 {
     color: #34495e;
     background-color: #a9d6f5;
@@ -40,7 +40,7 @@ h1 {
     padding: 20px;
     border-radius: 6px;
 }
-
+    /*Style 4*/
 h2 {
     color: #3d90b5;
     font-size: 24px;
@@ -48,11 +48,12 @@ h2 {
     padding-bottom: 8px;
 }
 
+    
 main p {
     font-size: 16px;
     line-height: 1.7;
 }
-
+    /*Style 5*/
 main img{
     display: block;
     max-width: 100%;
