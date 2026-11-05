@@ -1,91 +1,91 @@
 nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
+	list-style: none;
+	text-align: center;
+	padding: 0;
 }
 
 nav li {
-    display: inline-block;
-    margin: 10px;
+	display: inline-block;
+	margin: 10px;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 18px;
+	text-decoration: none;
+	font-size: 18px;
 }
 
-    /*Style 1*/
+	/*Style 1*/
 body {
-    background-color: #e8cfdefd;
-    font-family: Arial, sans-serif;
-    color: #514744;
+	background-color: #e8cfdefd;
+	font-family: Arial, sans-serif;
+	color: #514744;
 }
-    /*Style 2*/
+	/*Style 2*/
 main {
-    width: 85%;
-    max-width: 1000px;
-    margin: 30px auto;
+	width: 85%;
+	max-width: 1000px;
+	margin: 30px auto;
 }
-    /*Style 3*/
+	/*Style 3*/
 h1 {
-    color: #a96675;
-    text-align: center;
-    font-size: 80px;
-    background-color: #a8d5d2;
-    padding: 20px;
-    font-family: 'Devonshire', cursive;
+	color: #a96675;
+	text-align: center;
+	font-size: 80px;
+	background-color: #a8d5d2;
+	padding: 20px;
+	font-family: 'Devonshire', cursive;
 }
 
 h2 {
-    color: #a96675;
-    font-size: 25px;
-    line-height: 1.5;
-    margin-bottom: 5px;
-    font-family: Arial, sans-serif;
+	color: #a96675;
+	font-size: 25px;
+	line-height: 1.5;
+	margin-bottom: 5px;
+	font-family: Arial, sans-serif;
 }
 
 main p {
-    font-size: 24px;
-    line-height: 1.6;
-    text-align: left;
+	font-size: 24px;
+	line-height: 1.6;
+	text-align: left;
 }
 
-.about-list {
-    font-size: 25px;
-    line-height: 1.8;
-    text-align: left;
+.about-me {
+	font-size: 25px;
+	line-height: 1.8;
+	text-align: left;
 }
 
 main ul {
-    line-height: 1.8;
+	line-height: 1.8;
 }
-    /*Style 4*/
+	/*Style 4*/
 main img{
-    max-width: 100%;
-    height: auto;
-    border: 3px solid #c98991;
-    border-radius: 8px;
+	max-width: 100%;
+	height: auto;
+	border: 3px solid #c98991;
+	border-radius: 8px;
 }
-    /*Style 5*/
+	/*Style 5*/
 .interest-layout {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 25px;
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	margin-bottom: 25px;
 }
 
 .interest-layout img {
-    width: 200px;
-    height: auto;
+	width: 200px;
+	height: auto;
 }
 
 .interest-layout div {
-    flex: 1;
+	flex: 1;
 }
 
 .interest-layout h2 {
-    margin-top: 0;
-    margin-bottom: 5px;
-    font-size: 30px;
-    font-family: Arial, sans-serif;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 30px;
+	font-family: Arial, sans-serif;
 }
