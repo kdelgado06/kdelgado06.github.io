@@ -50,6 +50,12 @@ main p {
     text-align: left;
 }
 
+.about-list {
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: left;
+}
+
 main ul {
     line-height: 1.8;
 }
