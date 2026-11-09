@@ -9,8 +9,8 @@ function init(){
 
     alert("Debarlaben: " + userInput);
     textOutput.textContent = userInput;
- });
-
+    });
+}
 
 
 
@@ -18,4 +18,4 @@ function init(){
 
 
 window.addEventListener('load', init);
-}
+
