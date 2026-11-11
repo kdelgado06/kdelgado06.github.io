@@ -7,14 +7,14 @@ function init(){
     function myFunction() {
 
 // Create a variable to store what the user types into the textbox
-        const userInput = document.querySelector("input").value;
+        const userInput = document.querySelector("#entryinput").value;
 
 // Display in the alert box as your new message. Watch video.
         alert("Katie Delgado: " + userInput);
 
 // change the value of the h2 below the button to have the text contents of
 // the textbox
-        document.querySelector("h2").textContent = userInput;
+        document.querySelector("#textoutput").textContent = userInput;
     }
 
 myButton.addEventListener("click", myFunction);
