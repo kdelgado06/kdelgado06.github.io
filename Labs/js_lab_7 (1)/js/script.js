@@ -1,7 +1,7 @@
 function init(){
 // add your javascript code below
 // Create a variable to store button object content
-    const myButton = document.querySelector("button");
+    const myButton = document.querySelector("#entrybutton");
 
 // Create a function for the addEventListener (myFunction) {
     function myFunction() {
@@ -16,7 +16,7 @@ function init(){
 // the textbox
         document.querySelector("h2").textContent = userInput;
     }
-    
+
 myButton.addEventListener("click", myFunction);
 }
 window.addEventListener('load', init);
