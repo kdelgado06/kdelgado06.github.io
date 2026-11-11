@@ -1,21 +1,12 @@
 function init(){
-//add your javascrip between these two lines of code
- const entryButton = document.getElementById("entrybutton");
- const entryInput = document.getElementById("entryinput");
- const textOutput = document.getElementById("textoutput");
-
- entryButton.addEventListener("click", function() {
-    let userInput = entryInput.value;
-
-    alert("Debarlaben: " + userInput);
-    textOutput.textContent = userInput;
-    });
+// add your javascript code below
+// Create a variable to store button object content
+// Create a function for the addEventListener (myFunction) {
+// Create a variable to store what the user types into the textbox
+// Display in the alert box as your new message. Watch video.
+// change the value of the h2 below the button to have the text contents of
+// the textbox
+// }
+object.addEventListener("click", myFunction);
 }
-
-
-
-
-
-
 window.addEventListener('load', init);
-
