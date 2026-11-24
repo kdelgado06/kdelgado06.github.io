@@ -1,5 +1,6 @@
-function initMap() {
+window.initMap = function() {
     const center = { lat: 41.8781, lng: -87.6298 };
+    
     const map = new google.maps.Map(document.getElementById('map'), {
         zoom: 12,
         center: center
@@ -29,12 +30,16 @@ function initMap() {
         center: center,
         radius: 2500
     });
-}
+
 
 const questionButton = document.getElementById('questionsButton');
+
 if (questionButton){
     questionButton.addEventListener('click', function () {
         alert("If you have questions, contact me at:\nkdelgado3@hawk.illinoistech.edu");
-    })
+        });
+    }
 }
+
+
     
