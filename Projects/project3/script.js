@@ -42,8 +42,11 @@ window.initMap = function() {
         content: "<h3>Gage park</h3><p>This is my neighborhood that I live in</p>"
     });
 
-    gageParkMarker.addEventListener("click", function () {
-        gageInfoWindow.open(map, gageParkMarker);
+    google.maps.event.addListener(gageParkMarker, "click", function () {
+        gageInfoWindow.open({
+            map: map,
+            anchor: gageParkMarker,
+        });
     });
     
     const questionButton = document.getElementById('questionsButton');
