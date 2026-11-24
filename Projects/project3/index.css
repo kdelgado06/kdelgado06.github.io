@@ -92,3 +92,27 @@ main img{
 	font-size: 30px;
 	font-family: Arial, sans-serif;
 }
+
+@media (min-width: 768px) {
+	body {
+		font-size: 18px;
+		padding: 20px;
+	}
+
+	.interest-layout {
+		display: flex;
+		gap: 24px;
+	}
+}
+
+@media (min-width: 1024px) {
+	main {
+		max-width: 960px;
+		margin: 0 auto;
+		background-color: #fafafa;
+	}
+
+	nav ul {
+		gap: 20px;
+	}
+}
