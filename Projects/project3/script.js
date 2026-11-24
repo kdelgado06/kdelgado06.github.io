@@ -34,7 +34,7 @@ function initMap() {
 const questionButton = document.getElementById('questionsButton');
 if (questionButton){
     questionButton.addEventListener('click', function () {
-        alert("If you have questions, contact me at:\nyour-email@example.com");
+        alert("If you have questions, contact me at:\nkdelgado3@hawk.illinoistech.edu");
     })
 }
     
