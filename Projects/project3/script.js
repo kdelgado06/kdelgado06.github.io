@@ -19,7 +19,7 @@ function initMap() {
         infoWindow.open(map, marker);
     });
 
-    new google.map.Circle({
+    new google.maps.Circle({
         strokeColor: "#a96675",
         strokeOpacity: 0.8,
         strokeWeight: 2,
