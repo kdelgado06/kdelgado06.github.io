@@ -48,7 +48,7 @@ window.initMap = function() {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-    const questionButton = document.getElementById('questionButton');
+    const questionButton = document.getElementById('questionsButton');
 
     if (questionButton) {
         questionButton.addEventListener('click', function(){
