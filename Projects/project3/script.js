@@ -31,15 +31,30 @@ window.initMap = function() {
         radius: 2500
     });
 
+    const gagePark = { lat: 41.7953, lng: -87.6962};
+    const gageParkMarker = new google.maps.Marker({
+        position: gagePark,
+        map: map,
+        title: "Gage Park: My Neighborhood",
+    });
 
-const questionButton = document.getElementById('questionsButton');
+    const gageInfoWindow = new google.maps.InfoWindow({
+        content: "<h3>Gage park</h3><p>This is my neighborhood that I live in</p>"
+    });
 
-if (questionButton){
-    questionButton.addEventListener('click', function () {
-        alert("If you have questions, contact me at:\nkdelgado3@hawk.illinoistech.edu");
+    gageParkMarker.addEventListener("click", function () {
+        gageInfoWindow.open(map, gageParkMarker);
+    });
+    
+    const questionButton = document.getElementById('questionsButton');
+    
+    if (questionButton){
+         questionButton.addEventListener('click', function () {
+            alert("If you have questions, contact me at:\nkdelgado3@hawk.illinoistech.edu");
         });
     }
-}
+};
+
 
 
     
